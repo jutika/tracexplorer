@@ -26,12 +26,14 @@ If the Addins folder does not exist you can just create it yourself.
 
 ==Usage==
 
-Access the Trac Explorer from the View menu.
-You can add a new trac server from the Trac Explorer. Just click on the toolbar button.
-For the server DO NOT add the /login/xmlrpc part. So you would just put in http://vstrac.devjavu.com/. (Url must end in / see #23)
-When you expand a server node in the tree, it will download the wiki pages and attributes. From here you can:
-Add a ticket query by right-clicking on the Tickets node. See http://trac.edgewall.org/wiki/TracQuery#QueryLanguage for more details.
-Open a ticket query by double-clicking on it.
-Open a wiki page by double clicking on it.
-From within the Ticket Window you can open a ticket by double clicking on it.
+ * Access the Trac Explorer from the View menu.
+ * You can add a new trac server from the Trac Explorer. Just click on the toolbar button.
+ * For the server DO NOT add the /login/xmlrpc part. So you would just put in http://vstrac.devjavu.com/. (Url must end in / see #23)
+ * When you expand a server node in the tree, it will download the wiki pages and attributes. From here you can:
+   * Add a ticket query by right-clicking on the Tickets node. See http://trac.edgewall.org/wiki/TracQuery#QueryLanguage for more details.
+   * Open a ticket query by double-clicking on it.
+   * Open a wiki page by double clicking on it.
+ * From within the Ticket Window you can open a ticket by double clicking on it.
+
+
 There is a lot more development happening and new features should be coming pretty quickly. Please feel free to add any suggestions or bugs reports as a ticket.
