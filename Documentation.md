@@ -1,0 +1,39 @@
+# Documentation #
+
+## Prerequisites ##
+
+  * This addin only works with sites which use the XML-RPC plugin.
+  * This addin was developed in .NET 2.0.
+  * Visual Studio 2005 or 2008.
+
+## Installation ##
+
+  * Go download VSTrac.
+  * Extract it you your My Documents\Visual Studio 200x\Addins folder.
+  * Done.
+
+## Uninstallation ##
+
+  * Delete all the files from the \Addins folder.
+  * Remove the key CURRENT\_USER\Software\VSTrac from the registry (or you can leave it and the settings will be available the next time you install)
+  * When you start Visual Studio, if you click on Trac Explorer it should ask you whether you want to remove the menu item.
+
+## Some Notes ##
+
+On Vista the directory is [USERNAME](USERNAME.md)\Documents\Visual Studio 200x\Addins.
+The 200x is either 2005 or 2008 depending on which version you have installer.
+If the Addins folder does not exist you can just create it yourself.
+
+## Usage ##
+
+  * Access the Trac Explorer from the View menu.
+  * You can add a new trac server from the Trac Explorer. Just click on the toolbar button.
+  * For the server DO NOT add the /login/xmlrpc part. So you would just put in http://vstrac.devjavu.com/. (Url must end in / see #23)
+  * When you expand a server node in the tree, it will download the wiki pages and attributes. From here you can:
+    * Add a ticket query by right-clicking on the Tickets node. See http://trac.edgewall.org/wiki/TracQuery#QueryLanguage for more details.
+    * Open a ticket query by double-clicking on it.
+    * Open a wiki page by double clicking on it.
+  * From within the Ticket Window you can open a ticket by double clicking on it.
+
+
+There is a lot more development happening and new features should be coming pretty quickly. Please feel free to add any suggestions or bugs reports as a ticket.

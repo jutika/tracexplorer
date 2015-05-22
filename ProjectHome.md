@@ -1,0 +1,1 @@
+TracExplorer is an integration software for Edgewall's Trac Server. It includes a Visual Studio Trac Integration Addin and the TortoiseSVN bugtraq integration.
